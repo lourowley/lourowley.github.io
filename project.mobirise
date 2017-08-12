@@ -12,9 +12,9 @@
         "infoColor": "#553982",
         "warningColor": "#f3c649",
         "dangerColor": "#f3c649",
-        "titleFont": "Roboto Slab",
-        "subtitleFont": "Montserrat",
-        "textFont": "Montserrat",
+        "titleFont": "Rock Salt",
+        "subtitleFont": "Julius Sans One",
+        "textFont": "Quicksand",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
@@ -23,7 +23,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 35,
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.1.4",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": ""
@@ -48,36 +48,37 @@
           "_styles": {
             ".mbr-section-title": {
               "text-align": "center",
-              "font-family": "'Roboto Slab', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700"
+              "font-family": "'Permanent Marker', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Permanent+Marker:400",
+              "font-size": "80px"
             },
             ".mbr-section-lead": {
               "text-align": "center",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "font-family": "'Julius Sans One', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Julius+Sans+One:400"
             }
           },
           "_anchor": "header4-8",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": true,
             "bgVideo": {
               "width": 1280,
               "height": 720,
               "url": "https://www.youtube.com/embed/dwTSAD7djyo?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": "0.6",
             "overlayColor": "#856ea9",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": "0.6"
           },
           "title": "<br>LOUISA ROWLEY&nbsp;<br>",
           "text": "<br>Self-Shooting Director /  Director of Photography",
@@ -140,6 +141,12 @@
           "_name": "menu",
           "_anchor": "menu-9",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#553982",
             "fontSize": "0.9",
             "fontName": {
@@ -148,13 +155,7 @@
               "css": "'Roboto', sans-serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -194,6 +195,10 @@
             },
             ".card-footer > small": {
               "color": "#553982"
+            },
+            ".card-block": {
+              "font-family": "'Quicksand', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
             }
           },
           "testimonial": [
@@ -213,7 +218,7 @@
                 }
               },
               "authorName": "Sarah Fronckevic",
-              "authorBio": "Writer/Director/Producer - <br>C'est La Vie, The Investigation"
+              "authorBio": "<br>Writer/Director/Producer - <br>C'est La Vie, The Investigation"
             },
             {
               "text": "\"As a first-time director, working with Louisa was amazing. She brought the zen and order to my creative chaos, serving as an ideal partnership.\"",
@@ -227,7 +232,7 @@
                 }
               },
               "authorName": "Shai Hussain",
-              "authorBio": "Writer/Director - <br>Three Shades of Brown"
+              "authorBio": "<br>Writer/Director - <br>Three Shades of Brown"
             },
             {
               "text": "“Louisa is a first rate Director and DoP with the ability to generate outstanding ideas that add new dimensions to any scene or film that she is involved in. She came onboard with my film and took the entire production to a completely new level and made it the first rate film that it is. Hard working, committed and full of ability are the best ways to describe her. I would highly recommend anyone to work with her.”",
@@ -241,27 +246,27 @@
                 }
               },
               "authorName": "Daniel Casper",
-              "authorBio": "Writer/Producer - <br>Environmental Enforcement<br>"
+              "authorBio": "<br>Writer/Producer - <br>Environmental Enforcement<br>"
             }
           ],
           "_anchor": "testimonials1-j",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": 3,
-            "count": 3,
+            "showTitle": true,
+            "showSubtitle": false,
             "showImages": false,
             "showName": true,
             "showBio": true,
+            "count": 3,
+            "paddingTop": "2",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": false
+            "overlayOpacity": 0.5
           },
           "title": "TESTIMONIALS",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
@@ -274,36 +279,36 @@
           "_name": "msg-box4",
           "_styles": {
             "H3": {
-              "font-size": "32px",
+              "font-size": "25px",
               "text-align": "center",
               "color": "#000000"
             },
             "P": {
               "text-align": "center",
-              "font-size": "14px"
+              "font-size": "15px"
             }
           },
           "_anchor": "msg-box4-v",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "60",
             "paddingTop": "3",
             "paddingBottom": "1",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -324,7 +329,7 @@
             }
           },
           "title": "CORPORATE/DOC WORK",
-          "text": "I've worked on a whole range of videos including crowd funding videos, conferences, private events, live recordings, weddings and interviews.<br> <br>My involvement in this work varies from being simply a camera operator to self shooting the whole thing, meaning I directed it, shot it, lit it, recorded the sound, edited and colour graded it.<br> <br>This showreel prodominantly showcases work where I acted as a self shooter but it also includes a few examples from projects where I was just the DoP.",
+          "text": "<br>I've worked on a whole range of videos including crowd funding videos, conferences, private events, live recordings, weddings and interviews.<br> <br>My involvement in this work varies from being simply a camera operator to self shooting the whole thing, meaning I directed it, shot it, lit it, recorded the sound, edited and colour graded it.<br> <br>This showreel prodominantly showcases work where I acted as a self shooter but it also includes a few examples from projects where I was just the DoP.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
@@ -335,35 +340,35 @@
           "_name": "msg-box4",
           "_styles": {
             "H3": {
-              "font-size": "32px",
+              "font-size": "25px",
               "text-align": "center"
             },
             "P": {
-              "font-size": "14px",
+              "font-size": "15px",
               "text-align": "center"
             }
           },
           "_anchor": "msg-box4-w",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "60",
             "paddingTop": "3",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -384,7 +389,7 @@
             }
           },
           "title": "CREATIVE DOP WORK",
-          "text": "As a DoP I've worked on a lot of projects, with a lot of different cinematography styles, ranging from minimalististly lit documentary style to the harsh but effective horror look.<br> <br>Past projects include multiple feature films, shorts and music videos.<br> <br>Noteworthy past projects include feature film 'Wecome To The Majority' which won the Best Cinematography award at the 2013 Yellow Fever  Independant Film Festival.<br>",
+          "text": "<br>As a DoP I've worked on a lot of projects, with a lot of different cinematography styles, ranging from minimalististly lit documentary style to the harsh but effective horror look.<br> <br>Past projects include multiple feature films, shorts and music videos.<br> <br>Noteworthy past projects include feature film 'Wecome To The Majority' which won the Best Cinematography award at the 2013 Yellow Fever  Independant Film Festival.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
@@ -395,15 +400,24 @@
           "_name": "gallery4",
           "_styles": {
             ".mbr-gallery-item > div > span": {
-              "text-align": "left"
+              "text-align": "left",
+              "font-family": "'Quicksand', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
             },
             ".mbr-gallery-item > div > span SPAN": {
               "text-align": "center"
             }
           },
           "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "4",
             "paddingTop": "4",
             "paddingBottom": "2",
+            "filterBgColor": false,
+            "bgColor": "#efefef",
+            "showText": true,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -412,7 +426,7 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-14-57-10.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
                 "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "<b><span style=\"font-size: 0.9em; line-height: 1.5;\">EDA Awards 2015</span><br>Role: DoP</b><br>I was one of three DoPs, my work specifically is all non time-lapse slider shots and a few other static b roll",
+                "caption": "<b>EDA Awards 2015</b><br><b>Role: DoP</b><br>I was one of three DoPs, my work specifically is all non time-lapse slider shots and a few other static b roll",
                 "active": false
               },
               {
@@ -545,14 +559,7 @@
                 "caption": "<b>Nearly New</b><br>Pilot<br><b>Role: DoP</b>",
                 "active": true
               }
-            ],
-            "spacing": "4",
-            "showText": true,
-            "filter": false,
-            "bgColor": "#efefef",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery4-l",
           "articleLayout": false,
@@ -574,23 +581,23 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-x",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": "2",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "ABOUT ME",
           "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">I'm based in North London and I've been shooting videos and films for over six years now and I absolutely love doing the work that I do. I'm proud of the results I have achieved up to this point but that doesn't mean that I'm done learning, I'm determined to become even better as both a DoP and as a Self-Shooter.</span><br></p>",
@@ -612,23 +619,23 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-y",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": "0",
             "paddingBottom": "1",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "KIT LIST<br>",
           "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Camera 1 - Panasonic GH4</span><br></p><div>Camera 2 - Panasonic G7</div><div>Lenses - 12-35mm 2.8, 50mm 1.4, 25mm 0.95, 35mm F/2.4,135mm F/2.8, 58mm F/2</div><div>Lights - 2 soft box lights, small LED light</div><div>Sound - RodeLink Wireless Kit, Zoom H4n, H2 recorder with lapel mic, Rode Videomic</div><div>Other- Zhyion Crane Gimbal, shoulder rig, Manfrotto tripod, slider, field monitor</div><div>&nbsp;</div><div>Outside of my own equipment I have experience with a range of equipment including higher end cameras, jibs, tracking, radio mics and a range of different lighting kits.</div><p></p>",
@@ -649,22 +656,22 @@
           },
           "_anchor": "form1-e",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#553982",
             "paddingTop": "2",
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
-          "subtitle": "I'd love to hear from you.",
+          "subtitle": "<br>I'd love to hear from you.",
           "form": {
             "action": "lou1808@hotmail.co.uk",
             "alerts": {
