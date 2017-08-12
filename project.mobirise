@@ -20,7 +20,10 @@
         "isScrollToTopButton": false,
         "isRtl": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#e0d0ef",
+        "#8873a9"
+      ]
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 37,
@@ -190,7 +193,7 @@
               "color": "#000000"
             },
             ".mbr-section-title": {
-              "font-size": "36px"
+              "font-size": "32px"
             },
             ".card-footer > div": {
               "color": "#000000"
