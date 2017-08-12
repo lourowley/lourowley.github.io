@@ -1,8 +1,7 @@
-@import url(../../../https://fonts.googleapis.com/css?family=Permanent+Marker:400);
+@import url(../../../https://fonts.googleapis.com/css?family=Rock+Salt:400);
 @import url(../../../https://fonts.googleapis.com/css?family=Julius+Sans+One:400);
 @import url(../../../https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(../../../https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700);
-@import url(../../../https://fonts.googleapis.com/css?family=Rock+Salt:400);
 
 
 
@@ -429,8 +428,8 @@ h6,
 }
 #header4-8 .mbr-section-title {
   text-align: center;
-  font-family: 'Permanent Marker', handwriting;
-  font-size: 80px;
+  font-family: 'Rock Salt', handwriting;
+  font-size: 60px;
 }
 #header4-8 .mbr-section-lead {
   text-align: center;
@@ -530,6 +529,13 @@ h6,
   font-size: 15px;
   text-align: center;
 }
+#header3-10 .mbr-section-title,
+#header3-10 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-10 .mbr-section-title {
+  font-size: 36px;
+}
 #gallery4-l .mbr-gallery-item > div > span {
   text-align: left;
   font-family: 'Quicksand', sans-serif;
@@ -556,4 +562,7 @@ h6,
 }
 #form1-e SMALL {
   color: #553982;
+}
+#form1-e .mbr-section-title {
+  font-size: 36px;
 }

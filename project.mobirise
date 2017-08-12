@@ -19,10 +19,11 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 35,
+    "uniqCompNum": 37,
     "versionPublish": "4.1.4",
     "favicon": "",
     "noImageResize": "",
@@ -48,9 +49,9 @@
           "_styles": {
             ".mbr-section-title": {
               "text-align": "center",
-              "font-family": "'Permanent Marker', handwriting",
-              "googleLink": "https://fonts.googleapis.com/css?family=Permanent+Marker:400",
-              "font-size": "80px"
+              "font-family": "'Rock Salt', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Rock+Salt:400",
+              "font-size": "60px"
             },
             ".mbr-section-lead": {
               "text-align": "center",
@@ -176,7 +177,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LOUISA ROWLEY</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header4-8\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-v\">CORPORATE/DOC</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-w\">CREATIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery4-l\">PORTFOLIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-x\">ABOUT ME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-e\">CONTACT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header4-8\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-v\">CORPORATE/DOC</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-w\">CREATIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-10\">PORTFOLIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-x\">ABOUT ME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-e\">CONTACT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -393,6 +394,29 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#efefef"
+          },
+          "title": "PORTFOLIO",
+          "meta": "<br>THIS IS JUST A SMALL SELECTION OF WORK I'VE DONE IN THE PAST",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-10"
+        },
+        {
           "_inherit": "gallery1",
           "_tags": [
             "Theme"
@@ -412,7 +436,7 @@
             "showBullets": true,
             "fullWidth": true,
             "spacing": "4",
-            "paddingTop": "4",
+            "paddingTop": "1",
             "paddingBottom": "2",
             "filterBgColor": false,
             "bgColor": "#efefef",
@@ -584,7 +608,7 @@
             "showTitle": true,
             "showText": true,
             "showButton": false,
-            "paddingTop": "2",
+            "paddingTop": "3",
             "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
@@ -652,6 +676,9 @@
             },
             "SMALL": {
               "color": "#553982"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
             }
           },
           "_anchor": "form1-e",
@@ -659,7 +686,7 @@
             "showTitle": true,
             "showSubTitle": true,
             "labelsColor": "#553982",
-            "paddingTop": "2",
+            "paddingTop": "3",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
