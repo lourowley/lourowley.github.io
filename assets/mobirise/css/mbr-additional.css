@@ -10,6 +10,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -505,6 +506,7 @@ h6,
 }
 #testimonials1-j .card-footer > div {
   color: #000000;
+  font-family: 'Rock Salt', handwriting;
 }
 #testimonials1-j .card-footer > small {
   color: #553982;
