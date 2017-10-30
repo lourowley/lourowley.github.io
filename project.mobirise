@@ -27,7 +27,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 37,
-    "versionPublish": "4.1.4",
+    "versionPublish": "4.4.0",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": ""
@@ -450,6 +450,26 @@
               {
                 "tags": "Awesome",
                 "playVideo": true,
+                "videoUrl": "https://youtu.be/O70NlMthyn4",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-9-1-13-8-29-293165.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "<b>Salaam Events</b><br>Event Highlight Video<br><b>Role: Self Shooting Director</b>",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/VEIck7zT8J8",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-9-1-13-9-16-921852.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "<b>BPP University Student Association</b><br>Event Highlight Video<br><b>Role: Self Shooting Director</b>",
+                "active": true
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": true,
                 "videoUrl": "https://youtu.be/gVsNeCziLsU",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-14-57-10.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
@@ -585,7 +605,7 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
                 "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
                 "caption": "<b>Nearly New</b><br>Pilot<br><b>Role: DoP</b>",
-                "active": true
+                "active": false
               }
             ]
           },
