@@ -27,10 +27,12 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 37,
-    "versionPublish": "4.4.0",
+    "versionPublish": "4.7.2",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": ""
+    "google-analytics": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -455,7 +457,7 @@
                 "videoUrl": "https://youtu.be/O70NlMthyn4",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-9-1-13-8-29-293165.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>Salaam Events</b><br>Event Highlight Video<br><b>Role: Self Shooting Director</b>",
                 "active": false
               },
@@ -465,7 +467,7 @@
                 "videoUrl": "https://youtu.be/VEIck7zT8J8",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-9-1-13-9-16-921852.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>BPP University Student Association</b><br>Event Highlight Video<br><b>Role: Self Shooting Director</b>",
                 "active": true
               },
@@ -475,8 +477,8 @@
                 "videoUrl": "https://youtu.be/gVsNeCziLsU",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-14-57-10.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "<b>EDA Awards 2015</b><br><b>Role: DoP</b><br>I was one of three DoPs, my work specifically is all non time-lapse slider shots and a few other static b roll",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
+                "caption": "<b>EDA Awards</b><br><b>Role: DoP</b><br>I was one of three DoPs, my work specifically is all non time-lapse slider shots and a few other static b roll",
                 "active": false
               },
               {
@@ -485,8 +487,8 @@
                 "videoUrl": "https://youtu.be/K18kLxJ7DY0",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-14-56-50.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "<b>LGBT Awards 2015<br>Role: DoP</b><br>I was one of three DoPs, my work specifically is all non time-lapse slider shots and a few other static b roll",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
+                "caption": "<b>LGBT Awards<br>Role: DoP</b><br>I was one of three DoPs, my work specifically is all non time-lapse slider shots and a few other static b roll",
                 "active": false
               },
               {
@@ -495,7 +497,7 @@
                 "videoUrl": "https://youtu.be/NchLOhj_2MM",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-14-57-42.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>Midsummer Night Iftar</b><br>Event highlights video<br><b>Role: Self Shooting Director</b>",
                 "active": false
               },
@@ -505,7 +507,7 @@
                 "videoUrl": "https://youtu.be/TTWDBcRvRFU",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-14-58-13.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>Burger Survey Video</b><br>One out of a series of food focused videos for Tummy News<br><b>Role: Self Shooting Director</b>",
                 "active": false
               },
@@ -515,7 +517,7 @@
                 "videoUrl": "https://youtu.be/qrRoeF4PSTA",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-14-58-49.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>Interview with Milton Jones for Seriously Funny Productions</b><br>One of numerous videos for SFP<br><b>Role: Self Shooting Director</b>",
                 "active": false
               },
@@ -525,7 +527,7 @@
                 "videoUrl": "https://youtu.be/jT1neKrvkLQ",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-14-59-11.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>The Investigation</b><br>Short Film<br><b>Role: DoP</b>",
                 "active": false
               },
@@ -535,7 +537,7 @@
                 "videoUrl": "https://youtu.be/F1Ek5JSwKL8",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-14-59-49.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>Headz</b><br>Trailer of award winning short film<br><b>Role: DoP</b>",
                 "active": false
               },
@@ -545,7 +547,7 @@
                 "videoUrl": "https://youtu.be/lC7gWQftm5g",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-15-02-28.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>Three Shades of Brown<br></b>Trailer for Webseries<br><b>Role: DoP</b>",
                 "active": false
               },
@@ -555,7 +557,7 @@
                 "videoUrl": "https://youtu.be/G7aXvnzGSwQ",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-15-00-14.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>C’est La Vie</b><br>Short Film<br><b>Role: DoP</b>",
                 "active": false
               },
@@ -565,7 +567,7 @@
                 "videoUrl": "https://youtu.be/WogmHhccD58",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-15-00-37.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>No Code</b><br>Pilot<br><b>Role: DoP</b>",
                 "active": false
               },
@@ -575,7 +577,7 @@
                 "videoUrl": "https://youtu.be/VwdVBNg5wos",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-15-01-54.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<span style=\"font-size: 0.9em; text-align: left; line-height: 1.5;\"><b>Welcome To The Majority</b></span><br>Trailer of award winning Feature Film<br><b>Role: DoP</b>",
                 "active": false
               },
@@ -585,7 +587,7 @@
                 "videoUrl": "https://youtu.be/vF5dx1XRnRc",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-15-02-46.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<span style=\"font-size: 0.9em; text-align: left; line-height: 1.5;\"><b>Environmental Enforcement</b></span><br>Clip from Mockumentary feature film<br><b>Role: Director, DoP and Editor</b>",
                 "active": false
               },
@@ -595,7 +597,7 @@
                 "videoUrl": "https://youtu.be/vBoNdvspXtE",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-15-03-09.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>ATEWO - Mayomi</b><br>Music Video<br><b>Role: DoP and Editor</b>",
                 "active": false
               },
@@ -603,9 +605,9 @@
                 "tags": "Awesome",
                 "playVideo": true,
                 "videoUrl": "https://vimeo.com/170811571",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/logo.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/logo.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>Nearly New</b><br>Pilot<br><b>Role: DoP</b>",
                 "active": false
               }
@@ -650,7 +652,7 @@
             "overlayOpacity": 0.5
           },
           "title": "ABOUT ME",
-          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">I'm based in North London and I've been shooting videos and films for over six years now and I absolutely love doing the work that I do. I'm proud of the results I have achieved up to this point but that doesn't mean that I'm done learning, I'm determined to become even better as both a DoP and as a Self-Shooter.</span><br></p>",
+          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">I'm based in North London and I've been shooting videos and films for over seven years now and I absolutely love doing the work that I do. I'm proud of the results I have achieved up to this point but that doesn't mean that I'm done learning, I'm determined to become even better as both a DoP and as a Self-Shooter.</span><br></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
@@ -688,7 +690,7 @@
             "overlayOpacity": 0.5
           },
           "title": "KIT LIST<br>",
-          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Camera 1 - Panasonic GH4</span><br></p><div>Camera 2 - Panasonic G7</div><div>Lenses - 12-35mm 2.8, 50mm 1.4, 25mm 0.95, 35mm F/2.4,135mm F/2.8, 58mm F/2</div><div>Lights - 2 soft box lights, small LED light</div><div>Sound - RodeLink Wireless Kit, Zoom H4n, H2 recorder with lapel mic, Rode Videomic</div><div>Other- Zhyion Crane Gimbal, shoulder rig, Manfrotto tripod, slider, field monitor</div><div>&nbsp;</div><div>Outside of my own equipment I have experience with a range of equipment including higher end cameras, jibs, tracking, radio mics and a range of different lighting kits.</div><p></p>",
+          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Camera 1 - Panasonic GH5s</span><br></p><div>Camera 2 - Panasonic G7</div><div>Lenses - 12-35mm 2.8, 50mm 1.4, 25mm 0.95, 35mm F/2.4,135mm F/2.8, 58mm F/2</div><div>Lights - 2 soft box lights, small LED light</div><div>Sound - RodeLink Wireless Kit, Zoom H4n, H2 recorder with lapel mic, Rode Videomic</div><div>Other- Zhyion Crane Gimbal, shoulder rig, Manfrotto tripod, slider, field monitor</div><div>&nbsp;</div><div>Outside of my own equipment I have experience with a range of equipment including higher end cameras, jibs, tracking, radio mics and a range of different lighting kits.</div><p></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {

@@ -426,7 +426,7 @@ h6,
   color: #553982;
 }
 .scrollToTop_wraper {
-  opacity: 0 !important;
+  display: none;
 }
 #header4-8 .mbr-section-title {
   text-align: center;
