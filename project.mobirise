@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-08-13_1842",
+    "name": "m4 New site",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -78,7 +78,10 @@
     ],
     "uniqCompNum": 16,
     "versionPublish": "4.8.1",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/mbr-favicon-32x32-32x32.png",
+    "noImageResize": "true",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
