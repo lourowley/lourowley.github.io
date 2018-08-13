@@ -1,8 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One:400);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Rock+Salt:400);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt:400);
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One:400);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -435,7 +454,11 @@ h6,
 }
 #header4-8 .mbr-section-lead {
   text-align: center;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+}
+#header4-8 .mbr-section-lead B {
+  font-family: 'Oswald', sans-serif;
 }
 #menu-9 .hide-buttons .nav-btn {
   display: none !important;
@@ -504,33 +527,42 @@ h6,
 }
 #testimonials1-j .mbr-section-title {
   font-size: 32px;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
 }
 #testimonials1-j .card-footer > div {
   color: #000000;
-  font-family: 'Rock Salt', handwriting;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
 }
 #testimonials1-j .card-footer > small {
   color: #553982;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
 }
 #testimonials1-j .card-block {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 #msg-box4-v H3 {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   color: #000000;
+  font-family: 'Indie Flower', cursive;
 }
 #msg-box4-v P {
-  text-align: center;
-  font-size: 15px;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
 }
 #msg-box4-w H3 {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 #msg-box4-w P {
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 #header3-10 .mbr-section-title,
 #header3-10 .mbr-section-subtitle {
@@ -538,6 +570,11 @@ h6,
 }
 #header3-10 .mbr-section-title {
   font-size: 36px;
+  font-family: 'Indie Flower', cursive;
+}
+#header3-10 .mbr-section-subtitle {
+  font-family: 'Oswald', sans-serif;
+  color: #000000;
 }
 #gallery4-l .mbr-gallery-item > div > span {
   text-align: left;
@@ -552,6 +589,11 @@ h6,
 }
 #msg-box3-x .mbr-section-title {
   font-size: 36px;
+  font-family: 'Indie Flower', cursive;
+}
+#msg-box3-x .lead P {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
 }
 #msg-box3-y .mbr-section-title,
 #msg-box3-y p {
@@ -559,13 +601,29 @@ h6,
 }
 #msg-box3-y .mbr-section-title {
   font-size: 36px;
+  font-family: 'Indie Flower', cursive;
+}
+#msg-box3-y .lead P {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+}
+#msg-box3-y .lead DIV {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
 }
 #form1-e .form-control-label {
   color: #553982;
 }
 #form1-e SMALL {
   color: #553982;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
 }
 #form1-e .mbr-section-title {
   font-size: 36px;
+  font-family: 'Indie Flower', cursive;
+}
+#form1-e .btn {
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
 }

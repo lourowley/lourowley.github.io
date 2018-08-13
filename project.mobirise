@@ -1,7 +1,7 @@
 {
   "settings": {
     "currentPage": "index.html",
-    "name": "Louisa Rowley Productions",
+    "name": "Louisa Rowley Productions-clone",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -26,13 +26,180 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 37,
-    "versionPublish": "4.7.2",
-    "favicon": "",
+    "uniqCompNum": 41,
+    "versionPublish": "4.8.1",
+    "favicon": "@PROJECT_PATH@/assets/images/mbr-favicon-32x32.png",
     "noImageResize": "",
     "google-analytics": "",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "siteFonts": [
+      {
+        "name": "Open Sans",
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+        "css": "'Open Sans', sans-serif"
+      },
+      {
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+        "css": "'Roboto', sans-serif"
+      },
+      {
+        "name": "Lato",
+        "url": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+        "css": "'Lato', sans-serif"
+      },
+      {
+        "name": "Oswald",
+        "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+        "css": "'Oswald', sans-serif"
+      },
+      {
+        "name": "Roboto Condensed",
+        "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+        "css": "'Roboto Condensed', sans-serif"
+      },
+      {
+        "name": "Slabo 27px",
+        "url": "https://fonts.googleapis.com/css?family=Slabo+27px",
+        "css": "'Slabo 27px', serif"
+      },
+      {
+        "name": "Lora",
+        "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
+        "css": "'Lora', serif"
+      },
+      {
+        "name": "Source Sans Pro",
+        "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+        "css": "'Source Sans Pro', sans-serif"
+      },
+      {
+        "name": "PT Sans",
+        "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+        "css": "'PT Sans', sans-serif"
+      },
+      {
+        "name": "Open Sans Condensed",
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
+        "css": "'Open Sans Condensed', sans-serif"
+      },
+      {
+        "name": "Raleway",
+        "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+        "css": "'Raleway', sans-serif"
+      },
+      {
+        "name": "Droid Sans",
+        "url": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+        "css": "'Droid Sans', sans-serif"
+      },
+      {
+        "name": "Montserrat",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+        "css": "'Montserrat', sans-serif"
+      },
+      {
+        "name": "Ubuntu",
+        "url": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+        "css": "'Ubuntu', sans-serif"
+      },
+      {
+        "name": "Droid Serif",
+        "url": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
+        "css": "'Droid Serif', serif"
+      },
+      {
+        "name": "Roboto Slab",
+        "url": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+        "css": "'Roboto Slab', serif"
+      },
+      {
+        "name": "Merriweather",
+        "url": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+        "css": "'Merriweather', serif"
+      },
+      {
+        "name": "PT Sans Narrow",
+        "url": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+        "css": "'PT Sans Narrow', sans-serif"
+      },
+      {
+        "name": "Arimo",
+        "url": "https://fonts.googleapis.com/css?family=Arimo:400,700",
+        "css": "'Arimo', sans-serif"
+      },
+      {
+        "name": "Noto Sans",
+        "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+        "css": "'Noto Sans', sans-serif"
+      },
+      {
+        "name": "Bitter",
+        "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+        "css": "'Bitter', serif"
+      },
+      {
+        "name": "Titillium Web",
+        "url": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+        "css": "'Titillium Web', sans-serif"
+      },
+      {
+        "name": "Indie Flower",
+        "url": "https://fonts.googleapis.com/css?family=Indie+Flower",
+        "css": "'Indie Flower', cursive"
+      },
+      {
+        "name": "PT Serif",
+        "url": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
+        "css": "'PT Serif', serif"
+      },
+      {
+        "name": "Yanone Kaffeesatz",
+        "url": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+        "css": "'Yanone Kaffeesatz', sans-serif"
+      },
+      {
+        "name": "Oxygen",
+        "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+        "css": "'Oxygen', sans-serif"
+      },
+      {
+        "css": "'Quicksand', sans-serif",
+        "name": "Quicksand",
+        "url": "https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
+      },
+      {
+        "css": "'Cairo', sans-serif",
+        "name": "Cairo",
+        "url": "https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900"
+      },
+      {
+        "css": "'Permanent Marker', handwriting",
+        "name": "Permanent Marker",
+        "url": "https://fonts.googleapis.com/css?family=Permanent+Marker:400"
+      },
+      {
+        "css": "'Sedgwick Ave Display', handwriting",
+        "name": "Sedgwick Ave Display",
+        "url": "https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display:400"
+      },
+      {
+        "css": "'Comfortaa', display",
+        "name": "Comfortaa",
+        "url": "https://fonts.googleapis.com/css?family=Comfortaa:300,400,700"
+      },
+      {
+        "css": "'Julius Sans One', sans-serif",
+        "name": "Julius Sans One",
+        "url": "https://fonts.googleapis.com/css?family=Julius+Sans+One:400"
+      },
+      {
+        "css": "'Rock Salt', handwriting",
+        "name": "Rock Salt",
+        "url": "https://fonts.googleapis.com/css?family=Rock+Salt:400"
+      }
+    ]
   },
   "pages": {
     "index.html": {
@@ -60,8 +227,13 @@
             },
             ".mbr-section-lead": {
               "text-align": "center",
-              "font-family": "'Julius Sans One', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Julius+Sans+One:400"
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "24px"
+            },
+            ".mbr-section-lead B": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_anchor": "header4-8",
@@ -88,7 +260,7 @@
             "overlayOpacity": "0.6"
           },
           "title": "<br>LOUISA ROWLEY&nbsp;<br>",
-          "text": "<br>Self-Shooting Director /  Director of Photography",
+          "text": "<br>SELF-SHOOTING DIRECTOR / DIRECTOR OF PHOTOGRAPHY",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
         },
         {
@@ -195,19 +367,26 @@
               "color": "#000000"
             },
             ".mbr-section-title": {
-              "font-size": "32px"
+              "font-size": "32px",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "text-align": "center"
             },
             ".card-footer > div": {
               "color": "#000000",
-              "font-family": "'Rock Salt', handwriting",
-              "googleLink": "https://fonts.googleapis.com/css?family=Rock+Salt:400"
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "font-size": "30px"
             },
             ".card-footer > small": {
-              "color": "#553982"
+              "color": "#553982",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "16px"
             },
             ".card-block": {
-              "font-family": "'Quicksand', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "testimonial": [
@@ -288,13 +467,17 @@
           "_name": "msg-box4",
           "_styles": {
             "H3": {
-              "font-size": "25px",
+              "font-size": "30px",
               "text-align": "center",
-              "color": "#000000"
+              "color": "#000000",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
             },
             "P": {
-              "text-align": "center",
-              "font-size": "15px"
+              "text-align": "left",
+              "font-size": "16px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_anchor": "msg-box4-v",
@@ -349,12 +532,16 @@
           "_name": "msg-box4",
           "_styles": {
             "H3": {
-              "font-size": "25px",
-              "text-align": "center"
+              "font-size": "30px",
+              "text-align": "center",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
             },
             "P": {
-              "font-size": "15px",
-              "text-align": "center"
+              "font-size": "16px",
+              "text-align": "center",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_anchor": "msg-box4-w",
@@ -407,7 +594,14 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "font-size": "36px"
+              "font-size": "36px",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
+            },
+            ".mbr-section-subtitle": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#000000"
             }
           },
           "_params": {
@@ -441,7 +635,7 @@
             }
           },
           "_params": {
-            "showBullets": true,
+            "showBullets": false,
             "fullWidth": true,
             "spacing": "4",
             "paddingTop": "1",
@@ -469,7 +663,7 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
                 "image": "@PROJECT_PATH@/assets/images/bike.jpg",
                 "caption": "<b>BPP University Student Association</b><br>Event Highlight Video<br><b>Role: Self Shooting Director</b>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Awesome",
@@ -504,11 +698,11 @@
               {
                 "tags": "Awesome",
                 "playVideo": true,
-                "videoUrl": "https://youtu.be/TTWDBcRvRFU",
+                "videoUrl": "https://www.youtu.be/2CmRUBhtilo",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-30-14-58-13.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
                 "image": "@PROJECT_PATH@/assets/images/bike.jpg",
-                "caption": "<b>Burger Survey Video</b><br>One out of a series of food focused videos for Tummy News<br><b>Role: Self Shooting Director</b>",
+                "caption": "<b>Soul Transistor</b><br>Live Performance Video<br><b>Role: Self Shooting Director</b>",
                 "active": false
               },
               {
@@ -604,11 +798,11 @@
               {
                 "tags": "Awesome",
                 "playVideo": true,
-                "videoUrl": "https://vimeo.com/170811571",
+                "videoUrl": "https://youtu.be/uuy6d8NrFMA",
                 "videoPreview": "@PROJECT_PATH@/assets/images/logo.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
                 "image": "@PROJECT_PATH@/assets/images/bike.jpg",
-                "caption": "<b>Nearly New</b><br>Pilot<br><b>Role: DoP</b>",
+                "caption": "<b>#MurderSelfie</b><br>Short Film<br><b>Role: DoP</b>",
                 "active": false
               }
             ]
@@ -624,7 +818,14 @@
               "color": "#000"
             },
             ".mbr-section-title": {
-              "font-size": "36px"
+              "font-size": "36px",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
+            },
+            ".lead P": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "18px"
             }
           },
           "_tags": [
@@ -662,7 +863,19 @@
               "color": "#000"
             },
             ".mbr-section-title": {
-              "font-size": "36px"
+              "font-size": "36px",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
+            },
+            ".lead P": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "18px"
+            },
+            ".lead DIV": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "18px"
             }
           },
           "_tags": [
@@ -703,10 +916,20 @@
               "color": "#553982"
             },
             "SMALL": {
-              "color": "#553982"
+              "color": "#553982",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "18px"
             },
             ".mbr-section-title": {
-              "font-size": "36px"
+              "font-size": "36px",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
+            },
+            ".btn": {
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "font-size": "15px"
             }
           },
           "_anchor": "form1-e",
