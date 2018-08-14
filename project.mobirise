@@ -13,8 +13,8 @@
         "warningColor": "#ffffff",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
-        "display1Font": "Gloria Hallelujah",
-        "display1Size": "4.4",
+        "display1Font": "Nothing You Could Do",
+        "display1Size": "4.8",
         "display2Font": "Poiret One",
         "display2Size": "2",
         "display5Font": "Indie Flower",
@@ -27,7 +27,6 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
       "additionalSetColors": [
         "#270544",
         "#3d0a69",
@@ -75,6 +74,21 @@
         "css": "'Gloria Hallelujah', handwriting",
         "name": "Gloria Hallelujah",
         "url": "https://fonts.googleapis.com/css?family=Gloria+Hallelujah:400"
+      },
+      {
+        "css": "'Monoton', display",
+        "name": "Monoton",
+        "url": "https://fonts.googleapis.com/css?family=Monoton:400"
+      },
+      {
+        "css": "'Homemade Apple', handwriting",
+        "name": "Homemade Apple",
+        "url": "https://fonts.googleapis.com/css?family=Homemade+Apple:400"
+      },
+      {
+        "css": "'Nothing You Could Do', handwriting",
+        "name": "Nothing You Could Do",
+        "url": "https://fonts.googleapis.com/css?family=Nothing+You+Could+Do:400"
       }
     ],
     "uniqCompNum": 16,
@@ -1084,7 +1098,7 @@
             }
           },
           "_name": "testimonials2",
-          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"50\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x12993.jpg\" selected>\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f3eafb\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/mbr-608x403.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".testimonial-text\">KIT LIST<br></p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\"><span style=\"font-weight: normal;\">Camera 1 - Panasonic GH5s<br>Camera 2 - Panasonic G7<br>Lenses - 12-35mm 2.8, 50mm 1.4, 25mm 0.95, 35mm F/2.4,135mm F/2.8, 58mm F/2<br>Lights - 2 soft box lights, small LED light<br>Sound - RodeLink Wireless Kit, Zoom H4n, H2 recorder with lapel mic, Rode Videomic<br>Other- Zhyion Crane Gimbal, shoulder rig, Manfrotto tripod, slider, field monitor<br> <br>Outside of my own equipment I have experience with a range of equipment including higher end cameras, jibs, tracking, radio mics and a range of different lighting kits.</span></p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"50\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x12993.jpg\" selected>\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f3eafb\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/mbr-608x403.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".testimonial-text\">KIT LIST<br></p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\"><span style=\"font-weight: normal;\">Camera 1 - Panasonic GH5s<br>Camera 2 - Panasonic G7<br>Lenses - 12-35mm 2.8, 50mm 1.4, 25mm 0.95, 35mm F/2.4,135mm F/2.8, 58mm F/2<br>Lights - 2 soft box lights, small LED light<br>Sound - RodeLink Wireless Kit, Zoom H4n, H2 recorder with lapel mic, Rode Videomic<br>Other- Zhyion Crane Gimbal, shoulder rig, Manfrotto tripod, slider, field monitor<br> <br>Outside of my own equipment I have experience with a range of equipment including higher end cameras, jibs, tracking, radio mics and a range of different lighting kits.</span></p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r0DolBdwdj",
           "_anchor": "testimonials2-e",
           "_protectedParams": [],

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah:400);
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do:400);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One:400);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower:400);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i);
@@ -24,11 +24,11 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Gloria Hallelujah', handwriting;
-  font-size: 4.4rem;
+  font-family: 'Nothing You Could Do', handwriting;
+  font-size: 4.8rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 7.04rem;
+  font-size: 7.68rem;
 }
 .display-2 {
   font-family: 'Poiret One', display;
@@ -65,9 +65,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.52rem;
-    font-size: calc( 2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.84rem;
+    font-size: calc( 2.33rem + (4.8 - 2.33) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.33rem + (4.8 - 2.33) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.6rem;
@@ -1965,8 +1965,8 @@ body {
   color: #270544;
 }
 .cid-r0DolBdwdj {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-image: url("../../../assets/images/mbr-1920x12993.jpg");
 }
 .cid-r0DolBdwdj .testimonial-text {
