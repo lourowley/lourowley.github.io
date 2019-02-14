@@ -92,7 +92,7 @@
       }
     ],
     "uniqCompNum": 16,
-    "versionPublish": "4.8.1",
+    "versionPublish": "4.9.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/mbr-favicon-32x32.png",
     "noImageResize": "true",
@@ -841,7 +841,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>BPP University Student Association</b><br>Event Highlight Video<br><b>Role: Self Shooting Director</b>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "NON FICTION, DOP",
@@ -896,7 +896,7 @@
                 "active": false
               },
               {
-                "tags": "NON FICTION, SELF SHOOTER",
+                "tags": "NON FICTION, SELF SHOOTER, MUSIC",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2018-7-1-18-52-49-864214.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtu.be/2CmRUBhtilo",
@@ -906,7 +906,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Soul Transistor</b><br>Live Performance Video<br><b>Role: Self Shooting Director</b>",
-                "active": false
+                "active": true
               },
               {
                 "tags": "FICTION, DOP",
@@ -1000,7 +1000,7 @@
                 "active": false
               },
               {
-                "tags": "FICTION, DOP",
+                "tags": "FICTION, DOP, MUSIC",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2018-7-1-18-54-45-656654.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/vBoNdvspXtE",
@@ -1098,7 +1098,7 @@
             }
           },
           "_name": "testimonials2",
-          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"50\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1299.jpg\" selected>\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f3eafb\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/mbr-1-608x403.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".testimonial-text\">KIT LIST<br></p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\"><span style=\"font-weight: normal;\">Camera 1 - Panasonic GH5s<br>Camera 2 - Panasonic G7<br>Lenses - 12-35mm 2.8, 50mm 1.4, 25mm 0.95, 35mm F/2.4,135mm F/2.8, 58mm F/2<br>Lights - 2 soft box lights, small LED light<br>Sound - RodeLink Wireless Kit, Zoom H4n, H2 recorder with lapel mic, Rode Videomic<br>Other- Zhyion Crane Gimbal, shoulder rig, Manfrotto tripod, slider, field monitor<br> <br>Outside of my own equipment I have experience with a range of equipment including higher end cameras, jibs, tracking, radio mics and a range of different lighting kits.</span></p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"50\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1299.jpg\" selected>\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f3eafb\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/mbr-1-608x403.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".testimonial-text\">KIT LIST<br></p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\"><span style=\"font-weight: normal;\">Camera 1 - Panasonic GH5s<br>Camera 2 - Panasonic G7<br>Lenses - 12-35mm 2.8, 50mm 1.4, 25mm 0.95, 35mm F/2.4,135mm F/2.8, 58mm F/2<br>Lights - 2 soft box lights, 2 small LED lights<br>Sound - RodeLink Wireless Kit, Zoom H4n, H2 recorder with lapel mic, Rode Videomic<br>Other - Zhyion Crane Gimbal V2, Shoulder rig, Manfrotto tripod, Slider, Field monitor<br> <br>Outside of my own equipment I have experience with a range of equipment including higher end cameras, jibs, tracking, radio mics and a range of different lighting kits.</span></p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r0DolBdwdj",
           "_anchor": "testimonials2-e",
           "_protectedParams": [],
