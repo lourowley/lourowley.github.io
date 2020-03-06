@@ -801,7 +801,7 @@
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f7f4f9\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"4\" mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f7f4f9\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"4\" mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
           "_cid": "r0CZ1Z3xfc",
           "_anchor": "gallery2-2",
           "_protectedParams": [
@@ -854,7 +854,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Salaam Events</b><br>Event Highlight Video<br><b>Role: Self Shooting Director</b>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "NON FICTION, SELF SHOOTER",
@@ -880,6 +880,32 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>EDA Awards</b><br><b>Role: DoP</b><br>As one of 3 DoPs, my work specifically is all non time-lapse slider shots and a few other static b roll",
+                "active": false
+              },
+              {
+                "tags": "NON FICTION, SELF SHOOTER",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202026-173352020-2-5-17-34-55.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/17Kbh1NbbLg",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-2020-03-06-at-17.25.54.png",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-2020-03-06-at-17.25.54-800x448.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Goldsmiths Chinese New Year Show</b><br>Performance Highlights Video<br><b>Role: Self Shooting Director</b>",
+                "active": true
+              },
+              {
+                "tags": "NON FICTION, SELF SHOOTER, MUSIC",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-7-1-18-52-49-864214.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtu.be/2CmRUBhtilo",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Soul Transistor</b><br>Live Performance Video<br><b>Role: Self Shooting Director</b>",
                 "active": false
               },
               {
@@ -919,19 +945,6 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Interview with Milton Jones</b><br>One of numerous videos for \"Seriously Funny\"<br><b>Role: Self Shooting Director</b>",
-                "active": false
-              },
-              {
-                "tags": "NON FICTION, SELF SHOOTER, MUSIC",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-7-1-18-52-49-864214.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtu.be/2CmRUBhtilo",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<b>Soul Transistor</b><br>Live Performance Video<br><b>Role: Self Shooting Director</b>",
                 "active": false
               },
               {
