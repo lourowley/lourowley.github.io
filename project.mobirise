@@ -819,11 +819,37 @@
             "gallery": [
               {
                 "tags": "NON FICTION, SELF SHOOTER",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202026-125112020-2-5-12-46-18.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/b4XacTcgLQk",
+                "image": "@PROJECT_PATH@/assets/images/mbr-3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-3-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Igloo Crowd</b><br>Crowd Funding Video<br><b>Role: Self Shooting Director</b>",
+                "active": false
+              },
+              {
+                "tags": "NON FICTION, SELF SHOOTER",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202026-125112020-2-5-12-52-56.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/ShNwnqfnxb0",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2-800x300.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Goldsmith Confucius Institute</b><br>Chinese New Year Event Highlight Video<br><b>Role: Self Shooting Director</b>",
+                "active": true
+              },
+              {
+                "tags": "NON FICTION, SELF SHOOTER",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2018-7-1-18-51-15-776278.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/O70NlMthyn4",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery01-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery01-1-639x331.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -906,7 +932,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Soul Transistor</b><br>Live Performance Video<br><b>Role: Self Shooting Director</b>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "FICTION, DOP",
